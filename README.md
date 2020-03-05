@@ -1,8 +1,14 @@
 # pie-tracing
+
 This project requires jaeger
+
 install docker and then execute below command for locally running jaeger
+
+```
+
 docker run --rm -it --network=host jaegertracing/all-in-one
 
+```
 Jaeger ui is available at http://localhost:16686
 
 1. run JaegerTracingApplication which will run at port 8080
